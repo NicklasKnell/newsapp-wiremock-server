@@ -1,0 +1,15 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:mock": "wiremock --root-dir ./mock"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wiremock-standalone": "^2.20.0-1"
+  }
+}
